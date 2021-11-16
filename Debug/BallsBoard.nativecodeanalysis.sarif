@@ -1,0 +1,881 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'tle::CScopeLock::CScopeLock' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Defines.h"
+                },
+                "region": {
+                  "startLine": 633,
+                  "startColumn": 3,
+                  "endLine": 633,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CScopeLock@tle@@QAE@PA_N_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::CScopeLock', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Defines.h"
+                },
+                "region": {
+                  "startLine": 643,
+                  "startColumn": 4,
+                  "endLine": 643,
+                  "endColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1CScopeLock@tle@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'tle::ExceptionDebug' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Errors.h"
+                },
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 14,
+                  "endLine": 75,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ExceptionDebug@tle@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26455",
+          "message": {
+            "text": "Default constructor may not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Errors.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 3,
+                  "endLine": 97,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0CTLException@tle@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Function 'tle::CTLException::LineNum' can be declared 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Errors.h"
+                },
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 7,
+                  "endLine": 125,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?LineNum@CTLException@tle@@QBEHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::IMesh', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Mesh.h"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 12,
+                  "endLine": 47,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1IMesh@tle@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::ISceneNode', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/SceneNode.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 12,
+                  "endLine": 44,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1ISceneNode@tle@@MAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26436",
+          "message": {
+            "text": "The type 'class tle::ISceneNode' with a virtual function needs either public virtual or protected non-virtual destructor (c.35)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/SceneNode.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 12,
+                  "endLine": 44,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1ISceneNode@tle@@MAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::IModel', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Model.h"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 12,
+                  "endLine": 76,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1IModel@tle@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::ILight', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Light.h"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 12,
+                  "endLine": 61,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1ILight@tle@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::ICamera', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Camera.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 12,
+                  "endLine": 60,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1ICamera@tle@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kWhite' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 31,
+                  "endLine": 31,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kBlack' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 31,
+                  "endLine": 32,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kRed' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 30,
+                  "endLine": 33,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kGreen' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 31,
+                  "endLine": 34,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kBlue' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 30,
+                  "endLine": 35,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kCyan' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 30,
+                  "endLine": 36,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kMagenta' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 33,
+                  "endLine": 37,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kYellow' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 32,
+                  "endLine": 38,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kLightGrey' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 34,
+                  "endLine": 39,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kMidGrey' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 33,
+                  "endLine": 40,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kGrey' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 30,
+                  "endLine": 41,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26814",
+          "message": {
+            "text": "The const variable 'tle::kDarkGrey' can be computed at compile-time. Consider using constexpr (con.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 33,
+                  "endLine": 42,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::IFont', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+                },
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 12,
+                  "endLine": 79,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1IFont@tle@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::ISprite', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/Sprite.h"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 12,
+                  "endLine": 44,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1ISprite@tle@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26432",
+          "message": {
+            "text": "If you define or delete any default operation in the type 'class tle::I3DEngine', define or delete them all (c.21)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/ProgramData/TL-Engine/include/3DEngine.h"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 12,
+                  "endLine": 57,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??1I3DEngine@tle@@UAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'floorMesh' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/conno/OneDrive/Documents/University Work/Games Concepts/BallsBoard/BallsBoard.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 9,
+                  "endLine": 16,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Symbol 'myEngine' is never tested for nullness, it can be marked as not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/conno/OneDrive/Documents/University Work/Games Concepts/BallsBoard/BallsBoard.cpp"
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 11,
+                  "endLine": 9,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Variable 'floor' is uninitialized. Always initialize an object (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/conno/OneDrive/Documents/University Work/Games Concepts/BallsBoard/BallsBoard.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 10,
+                  "endLine": 17,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "floor"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29334.0"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x005EB1D0 -il C:\\Users\\conno\\AppData\\Local\\Temp\\_CL_0140f57bast -typedil -f BallsBoard.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829334 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -I C:\\ProgramData\\TL-Engine\\include -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MTd -clrNoPureCRT -D_DEBUG -D_MT -GS -fpfast -D_M_FP_FAST -Zc:wchar_t -Zc:forScope -FoDebug\\BallsBoard.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\conno\\OneDrive\\Documents\\University Work\\Games Concepts\\BallsBoard -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\AllRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29333\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\include",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Defines.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Errors.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Mesh.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/SceneNode.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Model.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Light.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Camera.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Font.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/Sprite.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/ProgramData/TL-Engine/include/3DEngine.h"
+          },
+          "roles": [
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/conno/OneDrive/Documents/University Work/Games Concepts/BallsBoard/BallsBoard.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/programdata/tl-engine/include/tl-engine.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/programdata/tl-engine/include/common.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        },
+        {
+          "location": {
+            "uri": "file:///c:/programdata/tl-engine/include/input.h"
+          },
+          "roles": [
+            "responseFile"
+          ]
+        }
+      ]
+    }
+  ]
+}

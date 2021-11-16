@@ -1,0 +1,6 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  BallsBoard.cpp
+C:\Users\conno\OneDrive\Documents\University Work\Games Concepts\BallsBoard\BallsBoard.cpp(315,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\conno\OneDrive\Documents\University Work\Games Concepts\BallsBoard\BallsBoard.cpp(324,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  BallsBoard.vcxproj -> C:\Users\conno\OneDrive\Documents\University Work\Games Concepts\BallsBoard\BallsBoardDebug.exe
+  Copying DLLs & shaders...
